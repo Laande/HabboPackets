@@ -1,0 +1,2785 @@
+{
+  "in": {
+    "AcceptFriendResult": {
+      "layout": "i[i i]"
+    },
+    "AccountPreferences": {
+      "layout": "i i i b b b i i"
+    },
+    "AccountSafetyLockStatusChange": {
+      "layout": "i"
+    },
+    "Achievement": {
+      "layout": "i i s i i i i i b s s i i i"
+    },
+    "AchievementResolutionCompleted": {
+      "layout": "s s"
+    },
+    "AchievementResolutionProgress": {
+      "layout": "i i s i i i"
+    },
+    "AchievementResolutions": {
+      "layout": "i i[i i s i i] i"
+    },
+    "Achievements": {
+      "layout": "i[i i s i i i i i b s s i i i] s"
+    },
+    "AchievementsScore": {
+      "layout": "i"
+    },
+    "ActivityPoints": {
+      "layout": "i[ii]"
+    },
+    "ApproveName": {
+      "layout": "i s"
+    },
+    "AuthenticationOK": {
+      "layout": "i i[h] i"
+    },
+    "AvailabilityStatus": {
+      "layout": "b b b?"
+    },
+    "AvatarEffect": {
+      "layout": "i i i"
+    },
+    "AvatarEffectActivated": {
+      "layout": "i i b"
+    },
+    "AvatarEffectAdded": {
+      "layout": "i i i b"
+    },
+    "AvatarEffectExpired": {
+      "layout": "i"
+    },
+    "AvatarEffects": {
+      "layout": "i[i i i i i b]"
+    },
+    "AvatarEffectSelected": {
+      "layout": "i"
+    },
+    "BadgePointLimits": {
+      "layout": "i[si[i i]]"
+    },
+    "BadgeReceived": {
+      "layout": "i s"
+    },
+    "Badges": {
+      "layout": "i i i[is]"
+    },
+    "BannedUsersFromRoom": {
+      "layout": "i i[i s]"
+    },
+    "BonusRareInfo": {
+      "layout": "s i i i"
+    },
+    "BotAddedToInventory": {
+      "layout": "i s s s s b"
+    },
+    "BotError": {
+      "layout": "i"
+    },
+    "BotForceOpenContextMenu": {
+      "layout": "i"
+    },
+    "BotInventory": {
+      "layout": "i[i s s s s]"
+    },
+    "BotRemovedFromInventory": {
+      "layout": "i"
+    },
+    "BotSkillListUpdate": {
+      "layout": "i i[i s]"
+    },
+    "BuildersClubFurniCount": {
+      "layout": "i"
+    },
+    "BuildersClubSubscriptionStatus": {
+      "layout": "i i i i?"
+    },
+    "BundleDiscountRuleset": {
+      "layout": "i i i i i[i]"
+    },
+    "CallForHelpDisabledNotify": {
+      "layout": "s"
+    },
+    "CallForHelpPendingCalls": {
+      "layout": "i[s s s]"
+    },
+    "CallForHelpPendingCallsDeleted": {
+      "layout": ""
+    },
+    "CallForHelpReply": {
+      "layout": "s"
+    },
+    "CallForHelpResult": {
+      "layout": "i s"
+    },
+    "CameraPublishStatus": {
+      "layout": "b i s?"
+    },
+    "CameraPurchaseOK": {
+      "layout": ""
+    },
+    "CameraStorageUrl": {
+      "layout": "s"
+    },
+    "CampaignCalendarData": {
+      "layout": "s s i i i[i] i[i]"
+    },
+    "CampaignCalendarDoorOpened": {
+      "layout": "b s s s"
+    },
+    "CancelMysteryBoxWait": {
+      "layout": ""
+    },
+    "CanCreateRoom": {
+      "layout": "i i"
+    },
+    "CantConnect": {
+      "custom": true,
+      "layout": "i s"
+    },
+    "CarryObject": {
+      "layout": "i i"
+    },
+    "CatalogIndex": {
+      "layout": "b i i s s i[i] i[<CatalogNodeData>] b s"
+    },
+    "CatalogPage": {
+      "layout": "i s s i[s] i[s] i[i s b i i i b i[s i s i b i i] i b b s] i b i[i s s i s i s i]?"
+    },
+    "CatalogPageWithEarliestExpiry": {
+      "layout": "s i s"
+    },
+    "CatalogPublished": {
+      "layout": "b s?"
+    },
+    "CategoriesWithVisitorCount": {
+      "layout": "i[i i i]"
+    },
+    "CfhChatlog": {
+      "layout": "i i i i c i[si(s | i | b)] i[s i s s b]"
+    },
+    "CfhSanction": {
+      "layout": "i i s i i b s? s?"
+    },
+    "CfhTopicsInit": {
+      "layout": "i[s i[s i s]]"
+    },
+    "ChangeEmailResult": {
+      "layout": "i"
+    },
+    "ChangeUserNameResult": {
+      "layout": "i s i[s]"
+    },
+    "Chat": {
+      "layout": "i s i i i[ssb] i"
+    },
+    "ChatReviewSessionDetached": {
+      "layout": ""
+    },
+    "ChatReviewSessionOfferedToGuide": {
+      "layout": "i"
+    },
+    "ChatReviewSessionResults": {
+      "layout": "i i i[i]"
+    },
+    "ChatReviewSessionStarted": {
+      "layout": "i s"
+    },
+    "ChatReviewSessionVotingStatus": {
+      "layout": "i[i]"
+    },
+    "CheckUserNameResult": {
+      "layout": "i s i[s]"
+    },
+    "CitizenshipVipOfferPromoEnabled": {
+      "layout": ""
+    },
+    "CloseConnection": {
+      "layout": ""
+    },
+    "ClubGiftInfo": {
+      "layout": "i i i[i s b i i i b i[s i s i b i i] i b b s] i[i b i b]"
+    },
+    "ClubGiftNotification": {
+      "layout": "i"
+    },
+    "ClubGiftSelected": {
+      "layout": "s i[s i s i b i i]"
+    },
+    "CommunityGoalHallOfFame": {
+      "layout": "s i[i s s i i]"
+    },
+    "CommunityGoalProgress": {
+      "layout": "b i i i i i i s i i[i]"
+    },
+    "CommunityVoteReceived": {
+      "layout": "b"
+    },
+    "CompetitionEntrySubmitResult": {
+      "layout": "i s i i[s] i[s]"
+    },
+    "CompetitionRoomsData": {
+      "layout": "i i i"
+    },
+    "CompetitionStatus": {
+      "layout": "b s"
+    },
+    "CompetitionVotingInfo": {
+      "layout": "i s i i"
+    },
+    "CompleteDiffieHandshake": {
+      "layout": "s b?"
+    },
+    "ConcurrentUsersGoalProgress": {
+      "layout": "i i i"
+    },
+    "ConfirmBreedingRequest": {
+      "layout": "i i s i s s i s i s s i[i i[i]] i"
+    },
+    "ConfirmBreedingResult": {
+      "layout": "i i"
+    },
+    "ConvertedRoomId": {
+      "layout": "s i"
+    },
+    "CraftableProducts": {
+      "layout": "i[s s] i[s]"
+    },
+    "CraftingRecipe": {
+      "layout": "i[i s]"
+    },
+    "CraftingRecipesAvailable": {
+      "layout": "i b"
+    },
+    "CraftingResult": {
+      "custom": true,
+      "layout": "b s s"
+    },
+    "CreditBalance": {
+      "layout": "s"
+    },
+    "CreditVaultStatus": {
+      "layout": "b i i"
+    },
+    "CurrentTimingCode": {
+      "layout": "s s"
+    },
+    "CustomStackingHeightUpdate": {
+      "layout": "i i"
+    },
+    "CustomUserNotification": {
+      "layout": "i"
+    },
+    "Dance": {
+      "layout": "i i"
+    },
+    "DiceValue": {
+      "layout": "i i"
+    },
+    "DisconnectReason": {
+      "layout": "i?"
+    },
+    "Doorbell": {
+      "layout": "s"
+    },
+    "ElementPointer": {
+      "layout": "s"
+    },
+    "EmailStatusResult": {
+      "layout": "s b b"
+    },
+    "EpicPopup": {
+      "layout": "s"
+    },
+    "ErrorReport": {
+      "layout": "i i s"
+    },
+    "Expression": {
+      "layout": "i i"
+    },
+    "ExtendedProfile": {
+      "layout": "i s s s s i i b b b i[i s s s s b i b] i b b? i? i? i? b? b?"
+    },
+    "ExtendedProfileChanged": {
+      "layout": "i"
+    },
+    "FavoriteMembershipUpdate": {
+      "layout": "i i i s"
+    },
+    "FavouriteChanged": {
+      "layout": "i b"
+    },
+    "Favourites": {
+      "layout": "i i[i]"
+    },
+    "FigureSetIds": {
+      "layout": "i[i] i[s]"
+    },
+    "FigureUpdate": {
+      "layout": "s s"
+    },
+    "FindFriendsProcessResult": {
+      "layout": "b"
+    },
+    "FlatAccessDenied": {
+      "layout": "i s?"
+    },
+    "FlatAccessible": {
+      "layout": "i s"
+    },
+    "FlatControllerAdded": {
+      "layout": "i i s"
+    },
+    "FlatControllerRemoved": {
+      "layout": "i i"
+    },
+    "FlatControllers": {
+      "layout": "i i[i s]"
+    },
+    "FlatCreated": {
+      "layout": "i s"
+    },
+    "FloodControl": {
+      "layout": "i"
+    },
+    "FloorHeightMap": {
+      "layout": "b i s"
+    },
+    "FollowFriendFailed": {
+      "layout": "i"
+    },
+    "ForumData": {
+      "layout": "i s s s i i i i i i s i i i i i s s s s s b b"
+    },
+    "ForumsList": {
+      "layout": "i i i i[i s s s i i i i i i s i]"
+    },
+    "ForumThreads": {
+      "layout": "i i i[i i s s b b i i i i i s i c i s i]"
+    },
+    "FriendFurniCancelLock": {
+      "layout": "i"
+    },
+    "FriendFurniOtherLockConfirmed": {
+      "layout": "i"
+    },
+    "FriendFurniStartConfirmation": {
+      "layout": "i b"
+    },
+    "FriendListFragment": {
+      "layout": "i i i[i s i b b s i s s s b b b h]"
+    },
+    "FriendListUpdate": {
+      "custom": true,
+      "layout": "i[i s] i[i] i[i s i b b s i s s s b b b h] i[i s i b b s i s s s b b b h]"
+    },
+    "FriendNotification": {
+      "layout": "s i s"
+    },
+    "FriendRequests": {
+      "layout": "i i[i s s]"
+    },
+    "FurniList": {
+      "layout": "i i i[i s i i i i(s (i i)? | i[ss] (i i)? | i[s] (i i)? | s i (i i)? | (i i)? | i[i] (i i)? | s i i i[i i[s]] | s i i (i i)?) b b b b i b i s i]"
+    },
+    "FurniListAddOrUpdate": {
+      "layout": "i s i i i i(s (i i)? | i[ss] (i i)? | i[s] (i i)? | s i (i i)? | (i i)? | i[i] (i i)? | s i i i[i i[s]] | s i i (i i)?) b b b b i b i s i"
+    },
+    "FurniListInvalidate": {
+      "layout": ""
+    },
+    "FurniListRemove": {
+      "layout": "i"
+    },
+    "FurniRentOrBuyoutOffer": {
+      "layout": "b s b i i i"
+    },
+    "FurnitureAliases": {
+      "layout": "i[ss]"
+    },
+    "Game2AccountGameStatus": {
+      "layout": "i i i"
+    },
+    "Game2ArenaEntered": {
+      "layout": "i s s s i"
+    },
+    "Game2EnterArena": {
+      "layout": "i i i i[i s s s i] i i s i[s i i i i i i i i i i(s (i i)? | i[ss] (i i)? | i[s] (i i)? | s i (i i)? | (i i)? | i[i] (i i)? | s i i i[i i[s]] | s i i (i i)?)]"
+    },
+    "Game2EnterArenaFailed": {
+      "layout": "i"
+    },
+    "Game2FriendsLeaderboard": {
+      "layout": "i[i i i s s s] i i"
+    },
+    "Game2FullGameStatus": {
+      "layout": "i i i i[i(i i i i i i i i i i | i i i i i i i i | i i i i i i | i i i i i i i | i i i i i i i i i i i i i i i i i i s s s s)] i i i i i[i[i(i | i i i | i i i | i i i i | i | i i i i i | i | i i)]]"
+    },
+    "Game2GameCancelled": {
+      "layout": ""
+    },
+    "Game2GameChatFromPlayer": {
+      "layout": "i s"
+    },
+    "Game2GameCreated": {
+      "layout": "i s i i i i s i i[i s s s i i i i]"
+    },
+    "Game2GameDirectoryStatus": {
+      "layout": "i i i i"
+    },
+    "Game2GameEnding": {
+      "layout": "i b i i i[i i i[s i s s i i i i i i i i i i i]] i i"
+    },
+    "Game2GameLongData": {
+      "layout": "i s i i i i s i i[i s s s i i i i]"
+    },
+    "Game2GameRejoin": {
+      "layout": "i"
+    },
+    "Game2GameStarted": {
+      "layout": "i s i i i i s i i[i s s s i i i i]"
+    },
+    "Game2GameStatus": {
+      "layout": "i i i[i[i(i | i i i | i i i | i i i i | i | i i i i i | i | i i)]]"
+    },
+    "Game2InArenaQueue": {
+      "layout": "i"
+    },
+    "Game2JoiningGameFailed": {
+      "layout": "i"
+    },
+    "Game2PlayerExitedGameArena": {
+      "layout": "i i"
+    },
+    "Game2PlayerRematches": {
+      "layout": "i"
+    },
+    "Game2StageEnding": {
+      "layout": "i"
+    },
+    "Game2StageLoad": {
+      "layout": "i"
+    },
+    "Game2StageRunning": {
+      "layout": "i"
+    },
+    "Game2StageStarting": {
+      "layout": "i s i i[i(i i i i i i i i i i | i i i i i i i i | i i i i i i | i i i i i i i | i i i i i i i i i i i i i i i i i i s s s s)]"
+    },
+    "Game2StageStillLoading": {
+      "layout": "i i[i]"
+    },
+    "Game2StartCounter": {
+      "layout": "i"
+    },
+    "Game2StartingGameFailed": {
+      "layout": "i"
+    },
+    "Game2StopCounter": {
+      "layout": ""
+    },
+    "Game2TotalGroupLeaderboard": {
+      "layout": "i[i i i s s s] i i i"
+    },
+    "Game2TotalLeaderboard": {
+      "layout": "i[i i i s s s] i i"
+    },
+    "Game2UserBlocked": {
+      "layout": "i"
+    },
+    "Game2UserJoinedGame": {
+      "layout": "i s s s i i i i b"
+    },
+    "Game2UserLeftGame": {
+      "layout": "i"
+    },
+    "Game2WeeklyFriendsLeaderboard": {
+      "layout": "i i i i i i[i i i s s s] i i"
+    },
+    "Game2WeeklyGroupLeaderboard": {
+      "layout": "i i i i i i[i i i s s s] i i i"
+    },
+    "Game2WeeklyLeaderboard": {
+      "layout": "i i i i i i[i i i s s s] i i"
+    },
+    "GamePlayerValue": {
+      "layout": "i i"
+    },
+    "GenericError": {
+      "layout": "i"
+    },
+    "GetGuestRoomResult": {
+      "layout": "b i s i s i i i s i i i i i[s] s? i? s? s? s? s? i? b b b b b b b i i i b i i i i i"
+    },
+    "GiftReceiverNotFound": {
+      "layout": ""
+    },
+    "GiftWrappingConfiguration": {
+      "layout": "b i i[i] i[i] i[i] i[i]"
+    },
+    "GotMysteryBoxPrize": {
+      "layout": "s i"
+    },
+    "GoToBreedingNestFailure": {
+      "layout": "i"
+    },
+    "GroupDetailsChanged": {
+      "layout": "i"
+    },
+    "GroupMembershipRequested": {
+      "layout": "i i i s s s"
+    },
+    "GuestRoomSearchResult": {
+      "layout": "i s i[i s i s i i i s i i i i i[s] s? i? s? s? s? s? i? b b b] (i s s b s s i i i s? (i s i s i i i s i i i i i[s] s? i? s? s? s? s? i? b b b)? b?)?"
+    },
+    "GuideOnDutyStatus": {
+      "layout": "b i i i"
+    },
+    "GuideReportingStatus": {
+      "custom": true,
+      "layout": "i (i i b s s s s)?"
+    },
+    "GuideSessionAttached": {
+      "layout": "b i s i"
+    },
+    "GuideSessionDetached": {
+      "layout": ""
+    },
+    "GuideSessionEnded": {
+      "layout": "i"
+    },
+    "GuideSessionError": {
+      "layout": "i"
+    },
+    "GuideSessionInvitedToGuideRoom": {
+      "layout": "i s"
+    },
+    "GuideSessionMessage": {
+      "layout": "s i"
+    },
+    "GuideSessionPartnerIsTyping": {
+      "layout": "b"
+    },
+    "GuideSessionRequesterRoom": {
+      "layout": "i"
+    },
+    "GuideSessionStarted": {
+      "layout": "i s s i s s"
+    },
+    "GuideTicketCreationResult": {
+      "layout": "i"
+    },
+    "GuideTicketResolution": {
+      "layout": "i"
+    },
+    "GuildCreated": {
+      "layout": "i i"
+    },
+    "GuildCreationInfo": {
+      "layout": "i i[i s b] i[i i i]"
+    },
+    "GuildEditFailed": {
+      "layout": "i"
+    },
+    "GuildEditInfo": {
+      "layout": "i[i s b] b i s s i i i i i b s i[i i i] s i"
+    },
+    "GuildEditorData": {
+      "layout": "i[i s s] i[i s s] i[i s] i[i s] i[i s]"
+    },
+    "GuildFurniContextMenuInfo": {
+      "layout": "i i s i b b"
+    },
+    "GuildMemberFurniCountInHQ": {
+      "layout": "i i"
+    },
+    "GuildMemberMgmtFailed": {
+      "layout": "i i"
+    },
+    "GuildMembers": {
+      "layout": "i[i s i s i i[i i s s s] b i i i s]"
+    },
+    "GuildMembershipRejected": {
+      "layout": "i i"
+    },
+    "GuildMemberships": {
+      "layout": "i[i s s s s b i b]"
+    },
+    "GuildMembershipUpdated": {
+      "layout": "i i i s s s"
+    },
+    "HabboAchievementNotification": {
+      "layout": "i i i s i i i i i s s b"
+    },
+    "HabboActivityPointNotification": {
+      "layout": "i i i"
+    },
+    "HabboBroadcast": {
+      "layout": "s"
+    },
+    "HabboClubExtendOffer": {
+      "layout": "i i i i"
+    },
+    "HabboGroupBadges": {
+      "layout": "i[is]"
+    },
+    "HabboGroupDeactivated": {
+      "layout": "i"
+    },
+    "HabboGroupDetails": {
+      "layout": "i b i s s s i s i i b s b b b b i b"
+    },
+    "HabboGroupJoinFailed": {
+      "layout": "i"
+    },
+    "HabboSearchResult": {
+      "layout": "i[i s s b b s i s s] i[i s s b b s i s s]"
+    },
+    "HabboUserBadges": {
+      "layout": "i i[is]"
+    },
+    "HandItemReceived": {
+      "layout": "i i"
+    },
+    "HeightMap": {
+      "custom": true,
+      "layout": "i i i[f b b]"
+    },
+    "HeightMapUpdate": {
+      "custom": true,
+      "layout": "i[c c f b b]"
+    },
+    "IdentityAccounts": {
+      "layout": "i[is]"
+    },
+    "IgnoredUsers": {
+      "layout": "i[s]"
+    },
+    "IgnoreResult": {
+      "layout": "i s"
+    },
+    "InClientLink": {
+      "layout": "s"
+    },
+    "IncomeRewardClaimResponse": {
+      "layout": "c b"
+    },
+    "IncomeRewardStatus": {
+      "layout": "i[c c i s]"
+    },
+    "InfoFeedEnable": {
+      "layout": "b"
+    },
+    "InfoHotelClosed": {
+      "layout": "i i b"
+    },
+    "InfoHotelClosing": {
+      "layout": "i"
+    },
+    "InitCamera": {
+      "layout": "i i i?"
+    },
+    "InitDiffieHandshake": {
+      "layout": "s s"
+    },
+    "InstantMessageError": {
+      "layout": "i i s"
+    },
+    "Interstitial": {
+      "layout": "b"
+    },
+    "IsBadgeRequestFulfilled": {
+      "layout": "s b"
+    },
+    "IsFirstLoginOfDay": {
+      "layout": "b"
+    },
+    "IssueCloseNotification": {
+      "layout": "i s"
+    },
+    "IssueDeleted": {
+      "layout": "s"
+    },
+    "IssueInfo": {
+      "layout": "i i i i i i i i s i s i s s i i[s i i]"
+    },
+    "IssuePickFailed": {
+      "layout": "i[iis] b i"
+    },
+    "IsUserPartOfCompetition": {
+      "layout": "b i"
+    },
+    "ItemAdd": {
+      "custom": true,
+      "layout": "s i s s i i i s?"
+    },
+    "ItemDataUpdate": {
+      "layout": "s s"
+    },
+    "ItemRemove": {
+      "layout": "s i"
+    },
+    "Items": {
+      "layout": "i[is] i[s i s s i i i s?]"
+    },
+    "ItemStateUpdate": {
+      "layout": "i s"
+    },
+    "ItemUpdate": {
+      "layout": "s i s s i i i s?"
+    },
+    "JukeboxPlayListFull": {
+      "layout": ""
+    },
+    "JukeboxSongDisks": {
+      "layout": "i i[ii]"
+    },
+    "LatencyPingResponse": {
+      "layout": "i"
+    },
+    "LimitedEditionSoldOut": {
+      "layout": ""
+    },
+    "LimitedOfferAppearingNext": {
+      "layout": "i i i s"
+    },
+    "LoginFailedHotelClosed": {
+      "layout": "i i"
+    },
+    "MaintenanceStatus": {
+      "layout": "b i b?"
+    },
+    "MarketplaceBuyOfferResult": {
+      "layout": "i i i i"
+    },
+    "MarketplaceCancelOfferResult": {
+      "layout": "i b"
+    },
+    "MarketplaceCanMakeOfferResult": {
+      "layout": "i i"
+    },
+    "MarketplaceConfiguration": {
+      "layout": "b i i i i i i i i i i"
+    },
+    "MarketplaceItemStats": {
+      "layout": "i i i i[i i i] i i"
+    },
+    "MarketplaceMakeOfferResult": {
+      "layout": "i"
+    },
+    "MarketPlaceOffers": {
+      "custom": true,
+      "layout": "i[i i i i i(s (i i)? | i[ss] (i i)? | i[s] (i i)? | s i (i i)? | (i i)? | i[i] (i i)? | s i i i[i i[s]] | s i i (i i)?) s i i i i] i"
+    },
+    "MarketPlaceOwnOffers": {
+      "layout": "i i[i i i i i(s (i i)? | i[ss] (i i)? | i[s] (i i)? | s i (i i)? | (i i)? | i[i] (i i)? | s i i i[i i[s]] | s i i (i i)?) s i i i i]"
+    },
+    "MessengerError": {
+      "layout": "i i"
+    },
+    "MessengerInit": {
+      "layout": "i i i i[i s]"
+    },
+    "MiniMailNewMessage": {
+      "layout": ""
+    },
+    "MiniMailUnreadCount": {
+      "layout": "i"
+    },
+    "Moderator": {
+      "layout": "s s"
+    },
+    "ModeratorActionResult": {
+      "layout": "i b"
+    },
+    "ModeratorCaution": {
+      "layout": "s s"
+    },
+    "ModeratorInit": {
+      "layout": "i[i i i i i i i i s i s i s s i i[s i i]] i[s] i[s] b b b b b b b i[s]"
+    },
+    "ModeratorRoomInfo": {
+      "layout": "i i b i s b s? s? i[s]?"
+    },
+    "ModeratorToolPreferences": {
+      "layout": "i i i i"
+    },
+    "ModeratorUserInfo": {
+      "layout": "i s s i i b i i i i i s s i i s s s? i?"
+    },
+    "MOTDNotification": {
+      "layout": "i[s]"
+    },
+    "MuteAllInRoom": {
+      "layout": "b"
+    },
+    "MysteryBoxKeys": {
+      "layout": "s s"
+    },
+    "NavigatorCollapsedCategories": {
+      "layout": "i[s]"
+    },
+    "NavigatorLiftedRooms": {
+      "layout": "i[i i s s]"
+    },
+    "NavigatorMetaData": {
+      "layout": "i[s i[i s s s]]"
+    },
+    "NavigatorSavedSearches": {
+      "layout": "i[i s s s]"
+    },
+    "NavigatorSearchResultBlocks": {
+      "layout": "s s i[s s i b i i[i s i s i i i s i i i i i[s] s? i? s? s? s? s? i? b b b]]"
+    },
+    "NavigatorSettings": {
+      "layout": "i i"
+    },
+    "NestBreedingSuccess": {
+      "layout": "i i"
+    },
+    "NewConsole": {
+      "layout": "i s i s"
+    },
+    "NewFriendRequest": {
+      "layout": "i s s"
+    },
+    "NewNavigatorPreferences": {
+      "layout": "i i i i b i"
+    },
+    "NewUserExperienceGiftOffer": {
+      "layout": "i[i i i[s i[s s]]]"
+    },
+    "NewUserExperienceNotComplete": {
+      "layout": ""
+    },
+    "NoobnessLevel": {
+      "layout": "i"
+    },
+    "NoOwnedRoomsAlert": {
+      "layout": ""
+    },
+    "NoSuchFlat": {
+      "layout": "i"
+    },
+    "NotEnoughBalance": {
+      "layout": "b b i?"
+    },
+    "NotificationDialog": {
+      "layout": "s i[ss]"
+    },
+    "NowPlaying": {
+      "layout": "i i i i i"
+    },
+    "ObjectAdd": {
+      "custom": true,
+      "layout": "i i i i i s s i i(s (i i)? | i[ss] (i i)? | i[s] (i i)? | s i (i i)? | (i i)? | i[i] (i i)? | s i i i[i i[s]] | s i i (i i)?) i i i s s?"
+    },
+    "ObjectDataUpdate": {
+      "layout": "s i(s (i i)? | i[ss] (i i)? | i[s] (i i)? | s i (i i)? | (i i)? | i[i] (i i)? | s i i i[i i[s]] | s i i (i i)?)"
+    },
+    "ObjectRemove": {
+      "layout": "s b i i"
+    },
+    "Objects": {
+      "layout": "i[is] i[i i i i i s s i i(s (i i)? | i[ss] (i i)? | i[s] (i i)? | s i (i i)? | (i i)? | i[i] (i i)? | s i i i[i i[s]] | s i i (i i)?) i i i s s?]"
+    },
+    "ObjectsDataUpdate": {
+      "layout": "i[ii(s (i i)? | i[ss] (i i)? | i[s] (i i)? | s i (i i)? | (i i)? | i[i] (i i)? | s i i i[i i[s]] | s i i (i i)?)]"
+    },
+    "ObjectUpdate": {
+      "layout": "i i i i i s s i i(s (i i)? | i[ss] (i i)? | i[s] (i i)? | s i (i i)? | (i i)? | i[i] (i i)? | s i i i[i i[s]] | s i i (i i)?) i i i s s?"
+    },
+    "OfferRewardDelivered": {
+      "layout": "s i s s"
+    },
+    "OfficialRooms": {
+      "custom": true,
+      "layout": "i[i s s b s s i i i s? (i s i s i i i s i i i i i[s] s? i? s? s? s? s? i? b b b)? b?] (i s s b s s i i i s? (i s i s i i i s i i i i i[s] s? i? s? s? s? s? i? b b b)? b?)? i[s s i[i s i s i i i s i i i i i[s] s? i? s? s? s? s? i? b b b]]"
+    },
+    "OfficialSongId": {
+      "layout": "s i"
+    },
+    "OneWayDoorStatus": {
+      "layout": "i i"
+    },
+    "Open": {
+      "layout": "i"
+    },
+    "OpenConnection": {
+      "layout": "i"
+    },
+    "OpenPetPackageRequested": {
+      "layout": "i (i i s i i[iii])?"
+    },
+    "OpenPetPackageResult": {
+      "layout": "i i s"
+    },
+    "PerkAllowances": {
+      "layout": "i[s s b]"
+    },
+    "PetAddedToInventory": {
+      "layout": "i s i i s i i[iii] i b"
+    },
+    "PetBreeding": {
+      "layout": "i i i"
+    },
+    "PetBreedingResult": {
+      "layout": "i i s i s i b i i s i s i b"
+    },
+    "PetCommands": {
+      "layout": "i i[i] i[i]"
+    },
+    "PetExperience": {
+      "layout": "i i i"
+    },
+    "PetFigureUpdate": {
+      "layout": "i i i i s i i[iii] b b"
+    },
+    "PetInfo": {
+      "layout": "i s i i i i i i i i i i i s i b b i[i] i b b b i i i i b"
+    },
+    "PetInventory": {
+      "layout": "i i i[i s i i s i i[iii] i]"
+    },
+    "PetLevelNotification": {
+      "layout": "i s i i i s i i[iii]"
+    },
+    "PetLevelUpdate": {
+      "layout": "i i i"
+    },
+    "PetPlacingError": {
+      "layout": "i"
+    },
+    "PetReceived": {
+      "layout": "b i s i i s i i[iii] i"
+    },
+    "PetRemovedFromInventory": {
+      "layout": "i"
+    },
+    "PetRespectFailed": {
+      "layout": "i i"
+    },
+    "PetRespectNotification": {
+      "layout": "i i i s i i s i i[iii] i"
+    },
+    "PetStatusUpdate": {
+      "layout": "i i b b b b"
+    },
+    "PetSupplementedNotification": {
+      "layout": "i i i"
+    },
+    "PhoneCollectionState": {
+      "layout": "i i i"
+    },
+    "Ping": {
+      "layout": ""
+    },
+    "PlayList": {
+      "layout": "i i[i i s s]"
+    },
+    "PlayListSongAdded": {
+      "layout": "i i s s"
+    },
+    "PollContents": {
+      "custom": true,
+      "layout": "i s s i[i i i s i i i i[s s i] i[<PollQuestion>]] b"
+    },
+    "PollError": {
+      "layout": ""
+    },
+    "PollOffer": {
+      "layout": "i s s s"
+    },
+    "PopularRoomTagsResult": {
+      "layout": "i[s i]"
+    },
+    "PostItPlaced": {
+      "layout": "i i"
+    },
+    "PostMessage": {
+      "layout": "i i i i i s s i s c i s i i"
+    },
+    "PostThread": {
+      "layout": "i i i s s b b i i i i i s i c i s i"
+    },
+    "PresentOpened": {
+      "layout": "s i s i s b s"
+    },
+    "ProductOffer": {
+      "layout": "i s b i i i b i[s i s i b i i] i b b s"
+    },
+    "PromoArticles": {
+      "layout": "i[i s s s i s s]"
+    },
+    "PurchaseError": {
+      "layout": "i"
+    },
+    "PurchaseNotAllowed": {
+      "layout": "i"
+    },
+    "PurchaseOK": {
+      "layout": "i s b i i i b i[s i s i b i i] i b"
+    },
+    "Quest": {
+      "layout": "s i i i i b s s i s i i i s s b"
+    },
+    "QuestCancelled": {
+      "layout": "b"
+    },
+    "QuestCompleted": {
+      "layout": "s i i i i b s s i s i i i s s b b"
+    },
+    "QuestDaily": {
+      "layout": "s i i i i b s s i s i i i s s b i i"
+    },
+    "Question": {
+      "layout": "s i i i i i i s i i[s] i[s]"
+    },
+    "QuestionAnswered": {
+      "layout": "i s i[si]"
+    },
+    "QuestionFinished": {
+      "layout": "i i[si]"
+    },
+    "Quests": {
+      "layout": "i[s i i i i b s s i s i i i s s b] b"
+    },
+    "QuizData": {
+      "layout": "s i[i]"
+    },
+    "QuizResults": {
+      "layout": "s i[i]"
+    },
+    "RelationshipStatusInfo": {
+      "layout": "i i[i i i s s]"
+    },
+    "RemainingMutePeriod": {
+      "layout": "i"
+    },
+    "RentableSpaceRentFailed": {
+      "layout": "i"
+    },
+    "RentableSpaceRentOk": {
+      "layout": "i"
+    },
+    "RentableSpaceStatus": {
+      "layout": "b i i s i i"
+    },
+    "RequestSpamWallPostIt": {
+      "layout": "i s"
+    },
+    "RespectNotification": {
+      "layout": "i i"
+    },
+    "RestoreClient": {
+      "layout": ""
+    },
+    "RoomAdError": {
+      "layout": "i s"
+    },
+    "RoomAdPurchaseInfo": {
+      "layout": "b i[i s b]"
+    },
+    "RoomChatlog": {
+      "layout": "c i[si(s | i | b)] i[s i s s b]"
+    },
+    "RoomChatSettings": {
+      "layout": "i i i i i"
+    },
+    "RoomDimmerPresets": {
+      "layout": "i[i i s i]"
+    },
+    "RoomEntryInfo": {
+      "layout": "i b"
+    },
+    "RoomEntryTile": {
+      "layout": "i i i"
+    },
+    "RoomEvent": {
+      "layout": "i i s i i s s i i i"
+    },
+    "RoomEventCancel": {
+      "layout": ""
+    },
+    "RoomFilterSettings": {
+      "layout": "i[s]"
+    },
+    "RoomForward": {
+      "layout": "i"
+    },
+    "RoomInfoUpdated": {
+      "layout": "i"
+    },
+    "RoomInvite": {
+      "layout": "i s"
+    },
+    "RoomInviteError": {
+      "custom": true,
+      "layout": "i i[i]"
+    },
+    "RoomMessageNotification": {
+      "layout": "i s i"
+    },
+    "RoomOccupiedTiles": {
+      "layout": "i[ii]"
+    },
+    "RoomProperty": {
+      "layout": "s s"
+    },
+    "RoomQueueStatus": {
+      "layout": "i s i i[si]"
+    },
+    "RoomRating": {
+      "layout": "i b"
+    },
+    "RoomReady": {
+      "layout": "s i"
+    },
+    "RoomSettingsData": {
+      "layout": "i s s i i i i i[s] i i i i i i i i i i i i b i i i"
+    },
+    "RoomSettingsError": {
+      "layout": "i i"
+    },
+    "RoomSettingsSaved": {
+      "layout": "i"
+    },
+    "RoomSettingsSaveError": {
+      "layout": "i i s"
+    },
+    "RoomVisits": {
+      "layout": "i s i[i s i i]"
+    },
+    "RoomVisualizationSettings": {
+      "layout": "b i i"
+    },
+    "SanctionStatus": {
+      "layout": "b b s i i s s i s i i b s?"
+    },
+    "ScrSendKickbackInfo": {
+      "layout": "i s g i i i i i i"
+    },
+    "ScrSendUserInfo": {
+      "layout": "s i i i i b b b b i i?"
+    },
+    "SeasonalCalendarDailyOffer": {
+      "layout": "i i[i s b i i i b i[s i s i b i i] i b b s]"
+    },
+    "SeasonalQuests": {
+      "layout": "i[s i i i i b s s i s i i i s s b]"
+    },
+    "SecondsUntil": {
+      "layout": "s i"
+    },
+    "SellablePetPalettes": {
+      "layout": "s i[i i i b b]"
+    },
+    "Shout": {
+      "layout": "i s i i i[ssb] i"
+    },
+    "ShowEnforceRoomCategoryDialog": {
+      "layout": "i"
+    },
+    "ShowMysteryBoxWait": {
+      "layout": ""
+    },
+    "Sleep": {
+      "layout": "i b"
+    },
+    "SlideObjectBundle": {
+      "custom": true,
+      "layout": "i i i i i[ii i] i i i s s"
+    },
+    "SnowWarGameTokens": {
+      "layout": "i[i s i i i]"
+    },
+    "SpecialRoomEffect": {
+      "layout": "i"
+    },
+    "TalentLevelUp": {
+      "layout": "s i i[s] i[s i]"
+    },
+    "TalentTrack": {
+      "layout": "s i[i i i[i i s i i i] i[s] i[s i]]"
+    },
+    "TalentTrackLevel": {
+      "layout": "s i i"
+    },
+    "TargetedOffer": {
+      "layout": "i i s s i i i i i s s s s i i[s]"
+    },
+    "TargetedOfferNotFound": {
+      "layout": ""
+    },
+    "ThreadMessages": {
+      "layout": "i i i i[i i i s s i s c i s i i]"
+    },
+    "ThumbnailStatus": {
+      "layout": "b b"
+    },
+    "TradeOpenFailed": {
+      "layout": "i s"
+    },
+    "TradingAccept": {
+      "layout": "i i"
+    },
+    "TradingClose": {
+      "layout": "i i"
+    },
+    "TradingCompleted": {
+      "layout": ""
+    },
+    "TradingConfirmation": {
+      "layout": ""
+    },
+    "TradingItemList": {
+      "layout": "i i[i s i i i b i(s (i i)? | i[ss] (i i)? | i[s] (i i)? | s i (i i)? | (i i)? | i[i] (i i)? | s i i i[i i[s]] | s i i (i i)?) i i i i] i i i i[i s i i i b i(s (i i)? | i[ss] (i i)? | i[s] (i i)? | s i (i i)? | (i i)? | i[i] (i i)? | s i i i[i i[s]] | s i i (i i)?) i i i i] i i"
+    },
+    "TradingNotOpen": {
+      "layout": ""
+    },
+    "TradingOpen": {
+      "layout": "i i i i"
+    },
+    "TradingOtherNotAllowed": {
+      "layout": ""
+    },
+    "TradingYouAreNotAllowed": {
+      "layout": ""
+    },
+    "TraxSongInfo": {
+      "layout": "i[i s s s i s]"
+    },
+    "TryPhoneNumberResult": {
+      "layout": "i i"
+    },
+    "TryVerificationCodeResult": {
+      "layout": "i i"
+    },
+    "UniqueMachineID": {
+      "layout": "s"
+    },
+    "UnreadForumsCount": {
+      "layout": "i"
+    },
+    "UnseenItems": {
+      "layout": "i[ii[i]]"
+    },
+    "UpdateMessage": {
+      "layout": "i i i i i s s i s c i s i i"
+    },
+    "UpdateThread": {
+      "layout": "i i i s s b b i i i i i s i c i s i"
+    },
+    "UseObject": {
+      "layout": "i i"
+    },
+    "UserBanned": {
+      "layout": "s"
+    },
+    "UserChange": {
+      "layout": "i s s s i"
+    },
+    "UserChatlog": {
+      "layout": "i s i[c i[si(s | i | b)] i[s i s s b]]"
+    },
+    "UserClassification": {
+      "layout": "i[i s s]"
+    },
+    "UserEventCats": {
+      "layout": "i[i s b]"
+    },
+    "UserFlatCats": {
+      "layout": "i[i s b b s s b]"
+    },
+    "UserNameChanged": {
+      "layout": "i i s"
+    },
+    "UserNftWardrobe": {
+      "layout": "i[s s s]"
+    },
+    "UserNftWardrobeSelection": {
+      "layout": "s s s"
+    },
+    "UserObject": {
+      "layout": "i s s s s s b i i i b s b b"
+    },
+    "UserRemove": {
+      "layout": "s"
+    },
+    "UserRights": {
+      "layout": "i i b"
+    },
+    "Users": {
+      "layout": "i[i(i s s s i i i s i s i i s s i b | i s s s i i i s i i i s i b b b b b b i s | i s s s i i i s i | i s s s i i i s i s i s i[h])]"
+    },
+    "UserSongDisksInventory": {
+      "layout": "i[ii]"
+    },
+    "UserTyping": {
+      "layout": "i i"
+    },
+    "UserUnbannedFromRoom": {
+      "layout": "i i"
+    },
+    "UserUpdate": {
+      "layout": "i[i i i s i i i[i(i | · | i i g | g b | g | i | i(· | · | · | · | · | · | · | · | · | · | s) | i(· | · | · | · | · | · | · | · | · | · | · | s))]]"
+    },
+    "VoucherRedeemError": {
+      "layout": "s"
+    },
+    "VoucherRedeemOk": {
+      "layout": "s s"
+    },
+    "Wardrobe": {
+      "layout": "i i[i s s]"
+    },
+    "Whisper": {
+      "layout": "i s i i i[ssb] i"
+    },
+    "WiredFurniAction": {
+      "layout": "i i[i] i i s i[i] i[i] i[i] i i b  b"
+    },
+    "WiredFurniAddon": {
+      "layout": "i i[i] i i s i[i] i[i] i[i] i b  b"
+    },
+    "WiredFurniCondition": {
+      "layout": "i i[i] i i s i[i] i[i] i[i] i i b b  b c"
+    },
+    "WiredFurniMove": {
+      "layout": "i i i i s s i i"
+    },
+    "WiredFurniSelector": {
+      "layout": "i i[i] i i s i[i] i[i] i[i] i b b b  b"
+    },
+    "WiredFurniTrigger": {
+      "layout": "i i[i] i i s i[i] i[i] i[i] i b  b"
+    },
+    "WiredRewardResult": {
+      "layout": "i"
+    },
+    "WiredSaveSuccess": {
+      "layout": ""
+    },
+    "WiredUserMove": {
+      "layout": "i i i i s s i i i"
+    },
+    "WiredValidationError": {
+      "layout": "s"
+    },
+    "WiredWallItemMove": {
+      "layout": "i b i i i i i i i i i"
+    },
+    "YouAreController": {
+      "layout": "i i"
+    },
+    "YouAreNotController": {
+      "layout": "i"
+    },
+    "YouAreOwner": {
+      "layout": "i"
+    },
+    "YouArePlayingGame": {
+      "layout": "b"
+    },
+    "YouAreSpectator": {
+      "layout": "i"
+    },
+    "YoutubeControlVideo": {
+      "layout": "i i"
+    },
+    "YoutubeDisplayPlaylists": {
+      "layout": "i i[s s s] s"
+    },
+    "YoutubeDisplayVideo": {
+      "layout": "i s i i i"
+    }
+  },
+  "out": {
+    "AcceptFriend": {
+      "layout": "i[i]"
+    },
+    "AcceptQuest": {
+      "layout": "i"
+    },
+    "AcceptTrading": {
+      "layout": ""
+    },
+    "ActivateQuest": {
+      "layout": "i"
+    },
+    "AddAdminRightsToMember": {
+      "layout": "i i"
+    },
+    "AddFavouriteRoom": {
+      "layout": "i"
+    },
+    "AddItemsToTrade": {
+      "layout": "i[i]"
+    },
+    "AddItemToTrade": {
+      "layout": "i"
+    },
+    "AddJukeboxDisk": {
+      "layout": "i i"
+    },
+    "AddSpamWallPostIt": {
+      "layout": "i s s s"
+    },
+    "AmbassadorAlert": {
+      "layout": "i"
+    },
+    "ApplySnapshot": {
+      "layout": "i"
+    },
+    "ApproveAllMembershipRequests": {
+      "layout": "i"
+    },
+    "ApproveMembershipRequest": {
+      "layout": "i i"
+    },
+    "ApproveName": {
+      "layout": "s i"
+    },
+    "AssignRights": {
+      "layout": "i"
+    },
+    "AvatarEffectActivated": {
+      "layout": "i"
+    },
+    "AvatarEffectSelected": {
+      "layout": "i"
+    },
+    "AvatarExpression": {
+      "layout": "i"
+    },
+    "BanUserWithDuration": {
+      "layout": "i s i"
+    },
+    "BreedPets": {
+      "layout": "i i i"
+    },
+    "BuildersClubPlaceRoomItem": {
+      "layout": "i i s i i i"
+    },
+    "BuildersClubPlaceWallItem": {
+      "layout": "i i s s"
+    },
+    "BuildersClubQueryFurniCount": {
+      "layout": ""
+    },
+    "BuyMarketplaceOffer": {
+      "layout": "i"
+    },
+    "BuyMarketplaceTokens": {
+      "layout": ""
+    },
+    "CallForHelp": {
+      "layout": "s i i i i[i s]"
+    },
+    "CallForHelpFromForumMessage": {
+      "layout": "i i i i s"
+    },
+    "CallForHelpFromForumThread": {
+      "layout": "i i i s"
+    },
+    "CallForHelpFromIM": {
+      "layout": "s i i i[i s]"
+    },
+    "CallForHelpFromPhoto": {
+      "layout": "s i i i i"
+    },
+    "CallForHelpFromSelfie": {
+      "layout": "s i i i i"
+    },
+    "CancelEvent": {
+      "layout": "i"
+    },
+    "CancelMarketplaceOffer": {
+      "layout": "i"
+    },
+    "CancelPetBreeding": {
+      "layout": "i"
+    },
+    "CancelQuest": {
+      "layout": ""
+    },
+    "CancelTyping": {
+      "layout": ""
+    },
+    "CanCreateRoom": {
+      "layout": ""
+    },
+    "ChangeEmail": {
+      "layout": "s"
+    },
+    "ChangeMotto": {
+      "layout": "s"
+    },
+    "ChangePosture": {
+      "layout": "i"
+    },
+    "ChangeQueue": {
+      "layout": "i"
+    },
+    "ChangeUserName": {
+      "layout": "s"
+    },
+    "Chat": {
+      "layout": "s i i"
+    },
+    "ChatReviewGuideDecidesOnOffer": {
+      "layout": "b"
+    },
+    "ChatReviewGuideDetached": {
+      "layout": ""
+    },
+    "ChatReviewGuideVote": {
+      "layout": "i"
+    },
+    "ChatReviewSessionCreate": {
+      "layout": "i i"
+    },
+    "CheckUserName": {
+      "layout": "s"
+    },
+    "ClickFurni": {
+      "layout": "i i"
+    },
+    "ClientHello": {
+      "layout": "s s i i"
+    },
+    "CloseIssueDefaultAction": {
+      "layout": "i i[i] i"
+    },
+    "CloseIssues": {
+      "layout": "i i[i]"
+    },
+    "CloseTrading": {
+      "layout": ""
+    },
+    "CommandBot": {
+      "layout": "i i s"
+    },
+    "CommunityGoalVote": {
+      "layout": "i"
+    },
+    "CompetitionRoomsSearch": {
+      "layout": "i i"
+    },
+    "CompleteDiffieHandshake": {
+      "layout": "s"
+    },
+    "CompostPlant": {
+      "layout": "i"
+    },
+    "ConfirmAcceptTrading": {
+      "layout": ""
+    },
+    "ConfirmDeclineTrading": {
+      "layout": ""
+    },
+    "ConfirmPetBreeding": {
+      "layout": "i s i i"
+    },
+    "ControlYoutubeDisplayPlayback": {
+      "layout": "i i"
+    },
+    "ConvertGlobalRoomId": {
+      "layout": "i"
+    },
+    "Craft": {
+      "layout": "i s"
+    },
+    "CraftSecret": {
+      "layout": "i i[i]"
+    },
+    "CreateFlat": {
+      "layout": "s s s i i i"
+    },
+    "CreateGuild": {
+      "custom": true,
+      "layout": "s s i i i i[i i i]"
+    },
+    "CreditFurniRedeem": {
+      "layout": "i"
+    },
+    "CreditVaultStatus": {
+      "layout": ""
+    },
+    "CustomizeAvatarWithFurni": {
+      "layout": "i"
+    },
+    "CustomizePetWithFurni": {
+      "layout": "i i"
+    },
+    "Dance": {
+      "layout": "i"
+    },
+    "DeactivateGuild": {
+      "layout": "i"
+    },
+    "DeclineFriend": {
+      "layout": "b i[i]"
+    },
+    "DefaultSanction": {
+      "custom": true,
+      "layout": "i i s i"
+    },
+    "DeleteFavouriteRoom": {
+      "layout": "i"
+    },
+    "DeletePendingCallsForHelp": {
+      "layout": ""
+    },
+    "DeleteRoom": {
+      "layout": "i"
+    },
+    "DeselectFavouriteHabboGroup": {
+      "layout": "i"
+    },
+    "DiceOff": {
+      "layout": "i"
+    },
+    "Disconnect": {
+      "layout": ""
+    },
+    "DropCarryItem": {
+      "layout": ""
+    },
+    "EditEvent": {
+      "layout": "i s s"
+    },
+    "EnterOneWayDoor": {
+      "layout": "i"
+    },
+    "EventLog": {
+      "layout": "s s s s i"
+    },
+    "ExtendRentOrBuyoutFurni": {
+      "layout": "b i b"
+    },
+    "ExtendRentOrBuyoutStripItem": {
+      "layout": "i b"
+    },
+    "FindNewFriends": {
+      "layout": ""
+    },
+    "FollowFriend": {
+      "layout": "i"
+    },
+    "ForwardToACompetitionRoom": {
+      "layout": "s i"
+    },
+    "ForwardToARandomPromotedRoom": {
+      "layout": "s"
+    },
+    "ForwardToASubmittableRoom": {
+      "layout": ""
+    },
+    "ForwardToRandomCompetitionRoom": {
+      "layout": "s"
+    },
+    "ForwardToSomeRoom": {
+      "layout": "s"
+    },
+    "FriendFurniConfirmLock": {
+      "layout": "i b"
+    },
+    "FriendListUpdate": {
+      "layout": ""
+    },
+    "FriendRequestQuestComplete": {
+      "layout": ""
+    },
+    "Game2CheckGameDirectoryStatus": {
+      "layout": ""
+    },
+    "Game2ExitGame": {
+      "layout": "b"
+    },
+    "Game2GameChat": {
+      "layout": "s"
+    },
+    "Game2GetAccountGameStatus": {
+      "layout": "i"
+    },
+    "Game2GetFriendsLeaderboard": {
+      "layout": "i i i i i"
+    },
+    "Game2GetTotalGroupLeaderboard": {
+      "layout": "i i i i i"
+    },
+    "Game2GetTotalLeaderboard": {
+      "layout": "i i i i i"
+    },
+    "Game2GetWeeklyFriendsLeaderboard": {
+      "layout": "i i i i i i"
+    },
+    "Game2GetWeeklyGroupLeaderboard": {
+      "layout": "i i i i i i"
+    },
+    "Game2GetWeeklyLeaderboard": {
+      "layout": "i i i i i i"
+    },
+    "Game2LeaveGame": {
+      "layout": ""
+    },
+    "Game2LoadStageReady": {
+      "layout": "i"
+    },
+    "Game2MakeSnowball": {
+      "layout": "i i"
+    },
+    "Game2PlayAgain": {
+      "layout": ""
+    },
+    "Game2QuickJoinGame": {
+      "layout": ""
+    },
+    "Game2RequestFullStatusUpdate": {
+      "layout": "i"
+    },
+    "Game2SetUserMoveTarget": {
+      "layout": "i i i i"
+    },
+    "Game2StartSnowWar": {
+      "layout": "s"
+    },
+    "Game2ThrowSnowballAtHuman": {
+      "layout": "i i i i"
+    },
+    "Game2ThrowSnowballAtPosition": {
+      "layout": "i i i i i"
+    },
+    "GetAchievements": {
+      "layout": ""
+    },
+    "GetBadgePointLimits": {
+      "layout": ""
+    },
+    "GetBadges": {
+      "layout": ""
+    },
+    "GetBannedUsersFromRoom": {
+      "layout": "i"
+    },
+    "GetBonusRareInfo": {
+      "layout": ""
+    },
+    "GetBotCommandConfigurationData": {
+      "layout": "i i"
+    },
+    "GetBotInventory": {
+      "layout": ""
+    },
+    "GetBundleDiscountRuleset": {
+      "layout": ""
+    },
+    "GetCatalogIndex": {
+      "layout": "s"
+    },
+    "GetCatalogPage": {
+      "layout": "i i s"
+    },
+    "GetCatalogPageWithEarliestExpiry": {
+      "layout": ""
+    },
+    "GetCfhChatlog": {
+      "layout": "i"
+    },
+    "GetCfhStatus": {
+      "layout": "b"
+    },
+    "GetClubGift": {
+      "layout": ""
+    },
+    "GetClubOffers": {
+      "layout": "i"
+    },
+    "GetCommunityGoalHallOfFame": {
+      "layout": "s"
+    },
+    "GetCommunityGoalProgress": {
+      "layout": ""
+    },
+    "GetConcurrentUsersGoalProgress": {
+      "layout": ""
+    },
+    "GetConcurrentUsersReward": {
+      "layout": ""
+    },
+    "GetCraftableProducts": {
+      "layout": "i"
+    },
+    "GetCraftingRecipe": {
+      "layout": "s"
+    },
+    "GetCraftingRecipesAvailable": {
+      "layout": "i i[i]"
+    },
+    "GetCreditsInfo": {
+      "layout": ""
+    },
+    "GetCurrentTimingCode": {
+      "layout": "s"
+    },
+    "GetCustomRoomFilter": {
+      "layout": "i"
+    },
+    "GetDailyQuest": {
+      "layout": "b i"
+    },
+    "GetEmailStatus": {
+      "layout": ""
+    },
+    "GetExtendedProfile": {
+      "layout": "i b"
+    },
+    "GetExtendedProfileByName": {
+      "layout": "s"
+    },
+    "GetFlatControllers": {
+      "layout": "i"
+    },
+    "GetForumsList": {
+      "layout": "i i i"
+    },
+    "GetForumStats": {
+      "layout": "i"
+    },
+    "GetFriendRequests": {
+      "layout": ""
+    },
+    "GetFurnitureAliases": {
+      "layout": ""
+    },
+    "GetGiftWrappingConfiguration": {
+      "layout": ""
+    },
+    "GetGuestRoom": {
+      "layout": "i i i"
+    },
+    "GetGuideReportingStatus": {
+      "layout": ""
+    },
+    "GetGuildCreationInfo": {
+      "layout": ""
+    },
+    "GetGuildEditInfo": {
+      "layout": "i"
+    },
+    "GetGuildEditorData": {
+      "layout": ""
+    },
+    "GetGuildFurniContextMenuInfo": {
+      "layout": "i i"
+    },
+    "GetGuildMembers": {
+      "layout": "i i s i"
+    },
+    "GetGuildMemberships": {
+      "layout": ""
+    },
+    "GetHabboClubExtendOffer": {
+      "layout": ""
+    },
+    "GetHabboGroupBadges": {
+      "layout": ""
+    },
+    "GetHabboGroupDetails": {
+      "layout": "i b"
+    },
+    "GetHeightMap": {
+      "layout": ""
+    },
+    "GetHotLooks": {
+      "layout": "c"
+    },
+    "GetIgnoredUsers": {
+      "layout": "s"
+    },
+    "GetInterstitial": {
+      "layout": ""
+    },
+    "GetIsBadgeRequestFulfilled": {
+      "layout": "s"
+    },
+    "GetIsOfferGiftable": {
+      "layout": "i"
+    },
+    "GetIsUserPartOfCompetition": {
+      "layout": "s"
+    },
+    "GetItemData": {
+      "layout": "i"
+    },
+    "GetJukeboxPlayList": {
+      "layout": ""
+    },
+    "GetLimitedOfferAppearingNext": {
+      "layout": ""
+    },
+    "GetMarketplaceCanMakeOffer": {
+      "layout": ""
+    },
+    "GetMarketplaceConfiguration": {
+      "layout": ""
+    },
+    "GetMarketplaceItemStats": {
+      "layout": "i i"
+    },
+    "GetMarketplaceOffers": {
+      "layout": "i i s i"
+    },
+    "GetMarketplaceOwnOffers": {
+      "layout": ""
+    },
+    "GetMemberGuildItemCount": {
+      "layout": "i i"
+    },
+    "GetMessages": {
+      "layout": "i i i i"
+    },
+    "GetModeratorRoomInfo": {
+      "layout": "i"
+    },
+    "GetModeratorUserInfo": {
+      "layout": "i"
+    },
+    "GetMOTD": {
+      "layout": ""
+    },
+    "GetNextTargetedOffer": {
+      "layout": ""
+    },
+    "GetNowPlaying": {
+      "layout": ""
+    },
+    "GetOccupiedTiles": {
+      "layout": ""
+    },
+    "GetOfficialRooms": {
+      "layout": "i"
+    },
+    "GetOfficialSongId": {
+      "layout": "s"
+    },
+    "GetPendingCallsForHelp": {
+      "layout": ""
+    },
+    "GetPetCommands": {
+      "layout": "i"
+    },
+    "GetPetInfo": {
+      "layout": "i"
+    },
+    "GetPetInventory": {
+      "layout": ""
+    },
+    "GetPopularRoomTags": {
+      "layout": ""
+    },
+    "GetProductOffer": {
+      "layout": "i"
+    },
+    "GetPromoArticles": {
+      "layout": ""
+    },
+    "GetQuests": {
+      "layout": ""
+    },
+    "GetQuizQuestions": {
+      "layout": "s"
+    },
+    "GetRelationshipStatusInfo": {
+      "layout": "i"
+    },
+    "GetRentOrBuyoutOffer": {
+      "layout": "b s b"
+    },
+    "GetResolutionAchievements": {
+      "layout": "i i"
+    },
+    "GetRoomAdPurchaseInfo": {
+      "layout": ""
+    },
+    "GetRoomChatlog": {
+      "layout": "i i"
+    },
+    "GetRoomEntryTile": {
+      "layout": ""
+    },
+    "GetRoomSettings": {
+      "layout": "i"
+    },
+    "GetRoomVisits": {
+      "layout": "i"
+    },
+    "GetSeasonalCalendarDaily": {
+      "layout": ""
+    },
+    "GetSeasonalQuestsOnly": {
+      "layout": ""
+    },
+    "GetSecondsUntil": {
+      "layout": "s"
+    },
+    "GetSelectedBadges": {
+      "layout": "i"
+    },
+    "GetSelectedNftWardrobeOutfit": {
+      "layout": ""
+    },
+    "GetSellablePetPalettes": {
+      "layout": "s"
+    },
+    "GetSnowWarGameTokensOffer": {
+      "layout": ""
+    },
+    "GetSongInfo": {
+      "layout": "i[i]"
+    },
+    "GetSoundMachinePlayList": {
+      "layout": ""
+    },
+    "GetSoundSettings": {
+      "layout": ""
+    },
+    "GetTalentTrack": {
+      "layout": "s"
+    },
+    "GetTalentTrackLevel": {
+      "layout": "s"
+    },
+    "GetThread": {
+      "layout": "i i"
+    },
+    "GetThreads": {
+      "layout": "i i i"
+    },
+    "GetUnreadForumsCount": {
+      "layout": ""
+    },
+    "GetUserChatlog": {
+      "layout": "i"
+    },
+    "GetUserEventCats": {
+      "layout": ""
+    },
+    "GetUserFlatCats": {
+      "layout": ""
+    },
+    "GetUserNftWardrobe": {
+      "layout": ""
+    },
+    "GetUserSongDisks": {
+      "layout": ""
+    },
+    "GetWardrobe": {
+      "layout": ""
+    },
+    "GetYoutubeDisplayStatus": {
+      "layout": "i"
+    },
+    "GiveStarGemToUser": {
+      "layout": "i i"
+    },
+    "GiveSupplementToPet": {
+      "layout": "i i"
+    },
+    "GuideAdvertisementRead": {
+      "layout": ""
+    },
+    "GuideSessionCreate": {
+      "layout": "i s"
+    },
+    "GuideSessionFeedback": {
+      "layout": "b"
+    },
+    "GuideSessionGetRequesterRoom": {
+      "layout": ""
+    },
+    "GuideSessionGuideDecides": {
+      "layout": "b"
+    },
+    "GuideSessionInviteRequester": {
+      "layout": ""
+    },
+    "GuideSessionIsTyping": {
+      "layout": "b"
+    },
+    "GuideSessionMessage": {
+      "layout": "s"
+    },
+    "GuideSessionOnDutyUpdate": {
+      "layout": "b b b b"
+    },
+    "GuideSessionReport": {
+      "layout": "s"
+    },
+    "GuideSessionRequesterCancels": {
+      "layout": ""
+    },
+    "GuideSessionResolved": {
+      "layout": ""
+    },
+    "GuildBaseSearch": {
+      "layout": "i"
+    },
+    "HabboSearch": {
+      "layout": "s"
+    },
+    "HarvestPet": {
+      "layout": "i"
+    },
+    "IgnoreUser": {
+      "layout": "s"
+    },
+    "IgnoreUserId": {
+      "layout": "i"
+    },
+    "IncomeRewardClaim": {
+      "layout": "c"
+    },
+    "IncomeRewardStatus": {
+      "layout": ""
+    },
+    "InfoRetrieve": {
+      "layout": ""
+    },
+    "InitDiffieHandshake": {
+      "layout": ""
+    },
+    "InterstitialShown": {
+      "layout": ""
+    },
+    "JoinHabboGroup": {
+      "layout": "i"
+    },
+    "KickMember": {
+      "layout": "i i b"
+    },
+    "KickUser": {
+      "layout": "i"
+    },
+    "LagWarningReport": {
+      "layout": "i"
+    },
+    "LatencyPingReport": {
+      "layout": "i i i"
+    },
+    "LatencyPingRequest": {
+      "layout": "i"
+    },
+    "LetUserIn": {
+      "layout": "s b"
+    },
+    "LookTo": {
+      "layout": "i i"
+    },
+    "MakeOffer": {
+      "layout": "i i i"
+    },
+    "MarkCatalogNewAdditionsPageOpened": {
+      "layout": ""
+    },
+    "MessengerInit": {
+      "layout": ""
+    },
+    "ModAlert": {
+      "custom": true,
+      "layout": "i s i i"
+    },
+    "ModBan": {
+      "custom": true,
+      "layout": "i s i i b i"
+    },
+    "ModerateMessage": {
+      "layout": "i i i i"
+    },
+    "ModerateRoom": {
+      "layout": "i i i i"
+    },
+    "ModerateThread": {
+      "layout": "i i i"
+    },
+    "ModeratorAction": {
+      "layout": "i s s"
+    },
+    "ModKick": {
+      "custom": true,
+      "layout": "i s i i"
+    },
+    "ModMessage": {
+      "custom": true,
+      "layout": "i s s s i i"
+    },
+    "ModMute": {
+      "custom": true,
+      "layout": "i s i i"
+    },
+    "ModToolPreferences": {
+      "layout": "i i i i"
+    },
+    "ModToolSanction": {
+      "layout": "i i i"
+    },
+    "ModTradingLock": {
+      "custom": true,
+      "layout": "i s i i i"
+    },
+    "MountPet": {
+      "layout": "i b"
+    },
+    "MoveAvatar": {
+      "layout": "i i"
+    },
+    "MoveObject": {
+      "layout": "i i i i"
+    },
+    "MovePet": {
+      "layout": "i i i i"
+    },
+    "MoveWallItem": {
+      "layout": "i s"
+    },
+    "MuteAllInRoom": {
+      "layout": ""
+    },
+    "MuteUser": {
+      "layout": "i i i"
+    },
+    "MyFavouriteRoomsSearch": {
+      "layout": ""
+    },
+    "MyFrequentRoomHistorySearch": {
+      "layout": ""
+    },
+    "MyFriendsRoomsSearch": {
+      "layout": ""
+    },
+    "MyGuildBasesSearch": {
+      "layout": ""
+    },
+    "MyRecommendedRooms": {
+      "layout": ""
+    },
+    "MyRoomHistorySearch": {
+      "layout": ""
+    },
+    "MyRoomRightsSearch": {
+      "layout": ""
+    },
+    "MyRoomsSearch": {
+      "layout": ""
+    },
+    "MysteryBoxWaitingCanceled": {
+      "layout": "i"
+    },
+    "NavigatorAddCollapsedCategory": {
+      "layout": "s"
+    },
+    "NavigatorAddSaved": {
+      "layout": "s s"
+    },
+    "NavigatorDeleteSaved": {
+      "layout": "i"
+    },
+    "NavigatorRemoveCollapsedCategory": {
+      "layout": "s"
+    },
+    "NavigatorSetSearchCodeViewMode": {
+      "layout": "s i"
+    },
+    "NewNavigatorInit": {
+      "layout": ""
+    },
+    "NewNavigatorSearch": {
+      "layout": "s s"
+    },
+    "NewUserExperienceGetGifts": {
+      "custom": true,
+      "layout": "i[i i i]"
+    },
+    "NewUserExperienceScriptProceed": {
+      "layout": ""
+    },
+    "Open": {
+      "layout": "i"
+    },
+    "OpenCampaignCalendarDoor": {
+      "layout": "s i"
+    },
+    "OpenCampaignCalendarDoorAsStaff": {
+      "layout": "s i"
+    },
+    "OpenFlatConnection": {
+      "layout": "i s i"
+    },
+    "OpenMysteryTrophy": {
+      "layout": "i s"
+    },
+    "OpenPetPackage": {
+      "layout": "i s"
+    },
+    "OpenQuestTracker": {
+      "layout": ""
+    },
+    "OpenTrading": {
+      "layout": "i"
+    },
+    "PassCarryItem": {
+      "layout": "i"
+    },
+    "PeerUsersClassification": {
+      "layout": "s"
+    },
+    "PerformanceLog": {
+      "layout": "i s s s s b i i i i i"
+    },
+    "PetSelected": {
+      "layout": "i"
+    },
+    "PhotoCompetition": {
+      "layout": ""
+    },
+    "PickIssues": {
+      "layout": "i[i] b i s"
+    },
+    "PickupObject": {
+      "layout": "i i"
+    },
+    "PlaceBot": {
+      "layout": "i i i"
+    },
+    "PlaceObject": {
+      "layout": "s"
+    },
+    "PlacePet": {
+      "layout": "i i i"
+    },
+    "PlacePostIt": {
+      "layout": "i s"
+    },
+    "PollAnswer": {
+      "layout": "i i i[s]"
+    },
+    "PollReject": {
+      "layout": "i"
+    },
+    "PollStart": {
+      "layout": "i"
+    },
+    "Pong": {
+      "layout": ""
+    },
+    "PopularRoomsSearch": {
+      "layout": "s i"
+    },
+    "PostMessage": {
+      "layout": "i i s s"
+    },
+    "PostQuizAnswers": {
+      "layout": "s i[i]"
+    },
+    "PresentOpen": {
+      "layout": "i"
+    },
+    "PublishPhoto": {
+      "layout": ""
+    },
+    "PurchaseBasicMembershipExtension": {
+      "layout": "i"
+    },
+    "PurchaseFromCatalog": {
+      "layout": "i i s i"
+    },
+    "PurchaseFromCatalogAsGift": {
+      "layout": "i i s s s i i i b"
+    },
+    "PurchasePhoto": {
+      "layout": ""
+    },
+    "PurchaseRoomAd": {
+      "layout": "i i i s b s i"
+    },
+    "PurchaseSnowWarGameTokensOffer": {
+      "layout": "i"
+    },
+    "PurchaseTargetedOffer": {
+      "layout": "i i"
+    },
+    "PurchaseVipMembershipExtension": {
+      "layout": "i"
+    },
+    "Quit": {
+      "layout": ""
+    },
+    "RateFlat": {
+      "layout": "i"
+    },
+    "RedeemMarketplaceOfferCredits": {
+      "layout": ""
+    },
+    "RedeemVoucher": {
+      "layout": "s"
+    },
+    "RejectMembershipRequest": {
+      "layout": "i i"
+    },
+    "RejectQuest": {
+      "layout": ""
+    },
+    "ReleaseIssues": {
+      "layout": "i[i]"
+    },
+    "RemoveAdminRightsFromMember": {
+      "layout": "i i"
+    },
+    "RemoveAllRights": {
+      "layout": "i"
+    },
+    "RemoveBotFromFlat": {
+      "layout": "i"
+    },
+    "RemoveFriend": {
+      "layout": "i[i]"
+    },
+    "RemoveItem": {
+      "layout": "i"
+    },
+    "RemoveItemFromTrade": {
+      "layout": "i"
+    },
+    "RemoveJukeboxDisk": {
+      "layout": "i"
+    },
+    "RemoveOwnRoomRightsRoom": {
+      "layout": "i"
+    },
+    "RemovePetFromFlat": {
+      "layout": "i"
+    },
+    "RemoveRights": {
+      "layout": "i[i]"
+    },
+    "RemoveSaddleFromPet": {
+      "layout": "i"
+    },
+    "RenderRoom": {
+      "custom": true,
+      "layout": "s"
+    },
+    "RenderRoomThumbnail": {
+      "custom": true,
+      "layout": "s"
+    },
+    "RentableSpaceCancelRent": {
+      "layout": "i"
+    },
+    "RentableSpaceRent": {
+      "layout": "i"
+    },
+    "RentableSpaceStatus": {
+      "layout": "i"
+    },
+    "RequestABadge": {
+      "layout": "s"
+    },
+    "RequestCameraConfiguration": {
+      "layout": ""
+    },
+    "RequestFriend": {
+      "layout": "s"
+    },
+    "RequestFurniInventory": {
+      "layout": ""
+    },
+    "RequestFurniInventoryWhenNotInRoom": {
+      "layout": ""
+    },
+    "RequestRoomPropertySet": {
+      "layout": "i"
+    },
+    "ResetPhoneNumberState": {
+      "layout": ""
+    },
+    "ResetUnseenItemIds": {
+      "layout": "i i[i]"
+    },
+    "ResetUnseenItems": {
+      "layout": "i"
+    },
+    "RespectPet": {
+      "layout": "i"
+    },
+    "RoomAdEventTabAdClicked": {
+      "layout": "i s i"
+    },
+    "RoomAdEventTabViewed": {
+      "layout": ""
+    },
+    "RoomAdPurchaseInitiated": {
+      "layout": ""
+    },
+    "RoomAdSearch": {
+      "layout": "i i"
+    },
+    "RoomCompetitionInit": {
+      "layout": ""
+    },
+    "RoomDimmerChangeState": {
+      "layout": ""
+    },
+    "RoomDimmerGetPresets": {
+      "layout": ""
+    },
+    "RoomDimmerSavePreset": {
+      "layout": "i i s i b"
+    },
+    "RoomNetworkOpenConnection": {
+      "layout": "i i"
+    },
+    "RoomsWhereMyFriendsAreSearch": {
+      "layout": ""
+    },
+    "RoomsWithHighestScoreSearch": {
+      "layout": "i"
+    },
+    "RoomTextSearch": {
+      "layout": "s"
+    },
+    "RoomUsersClassification": {
+      "layout": "s"
+    },
+    "SaveRoomSettings": {
+      "layout": "i s s i s i i i[s] i b b b b i i i i i i i i i i b"
+    },
+    "SaveUserNftWardrobe": {
+      "layout": "s"
+    },
+    "SaveWardrobeOutfit": {
+      "layout": "i s s"
+    },
+    "ScrGetKickbackInfo": {
+      "layout": ""
+    },
+    "ScrGetUserInfo": {
+      "layout": "s"
+    },
+    "SelectClubGift": {
+      "layout": "s"
+    },
+    "SelectFavouriteHabboGroup": {
+      "layout": "i"
+    },
+    "SendMsg": {
+      "layout": "i s"
+    },
+    "SendRoomInvite": {
+      "layout": "i[i] s"
+    },
+    "SetActivatedBadges": {
+      "custom": true,
+      "layout": "#5[s]"
+    },
+    "SetChatPreferences": {
+      "layout": "b"
+    },
+    "SetChatStylePreference": {
+      "layout": "b"
+    },
+    "SetClothingChangeData": {
+      "layout": "i s s"
+    },
+    "SetCustomStackingHeight": {
+      "layout": "i i"
+    },
+    "SetIgnoreRoomInvites": {
+      "layout": "b"
+    },
+    "SetItemData": {
+      "layout": "i s s"
+    },
+    "SetMannequinFigure": {
+      "layout": "i"
+    },
+    "SetMannequinName": {
+      "layout": "i s"
+    },
+    "SetNewNavigatorWindowPreferences": {
+      "layout": "i i i i b i"
+    },
+    "SetObjectData": {
+      "custom": true,
+      "layout": "i i[ss]"
+    },
+    "SetPhoneNumberVerificationStatus": {
+      "layout": "i"
+    },
+    "SetRandomState": {
+      "layout": "i i"
+    },
+    "SetRelationshipStatus": {
+      "layout": "i i"
+    },
+    "SetRoomBackgroundColorData": {
+      "layout": "i i i i"
+    },
+    "SetRoomCameraPreferences": {
+      "layout": "b"
+    },
+    "SetRoomSessionTags": {
+      "layout": "s s"
+    },
+    "SetSoundSettings": {
+      "layout": "i i i"
+    },
+    "SetTargetedOfferState": {
+      "layout": "i i"
+    },
+    "SetUIFlags": {
+      "layout": "i"
+    },
+    "SetYoutubeDisplayPlaylist": {
+      "layout": "i s"
+    },
+    "ShopTargetedOfferViewed": {
+      "layout": "i i"
+    },
+    "Shout": {
+      "layout": "s i"
+    },
+    "Sign": {
+      "layout": "i"
+    },
+    "SpinWheelOfFortune": {
+      "layout": "i"
+    },
+    "SSOTicket": {
+      "layout": "s i"
+    },
+    "StartCampaign": {
+      "layout": "s"
+    },
+    "StartTyping": {
+      "layout": ""
+    },
+    "SubmitRoomToCompetition": {
+      "layout": "s i"
+    },
+    "ThrowDice": {
+      "layout": "i"
+    },
+    "TogglePetBreedingPermission": {
+      "layout": "i"
+    },
+    "TogglePetRidingPermission": {
+      "layout": "i"
+    },
+    "ToggleStaffPick": {
+      "layout": "i b"
+    },
+    "TryPhoneNumber": {
+      "layout": "s s"
+    },
+    "UnacceptTrading": {
+      "layout": ""
+    },
+    "UnbanUserFromRoom": {
+      "layout": "i i"
+    },
+    "UnblockGroupMember": {
+      "layout": "i i"
+    },
+    "UnignoreUser": {
+      "layout": "s"
+    },
+    "UniqueID": {
+      "layout": "s s s"
+    },
+    "UnmuteUser": {
+      "layout": "i i"
+    },
+    "UpdateAction": {
+      "layout": "i i[i] s i[i] i i[i] i[i]"
+    },
+    "UpdateAddon": {
+      "layout": "i i[i] s i[i] i[i] i[i]"
+    },
+    "UpdateCondition": {
+      "layout": "i i[i] s i[i] i i[i] i[i]"
+    },
+    "UpdateFigureData": {
+      "layout": "s s"
+    },
+    "UpdateFloorProperties": {
+      "custom": true,
+      "layout": "s i i i i i i"
+    },
+    "UpdateForumReadMarker": {
+      "layout": "i[i i b]"
+    },
+    "UpdateForumSettings": {
+      "layout": "i i i i i"
+    },
+    "UpdateGuildBadge": {
+      "custom": true,
+      "layout": "i i[i i i]"
+    },
+    "UpdateGuildColors": {
+      "layout": "i i i"
+    },
+    "UpdateGuildIdentity": {
+      "layout": "i s s"
+    },
+    "UpdateGuildSettings": {
+      "layout": "i i i"
+    },
+    "UpdateHomeRoom": {
+      "layout": "i"
+    },
+    "UpdateRoomCategoryAndTradeSettings": {
+      "layout": "i i i"
+    },
+    "UpdateRoomFilter": {
+      "layout": "i b s"
+    },
+    "UpdateSelector": {
+      "layout": "i i[i] s i[i] b b i[i] i[i]"
+    },
+    "UpdateThread": {
+      "layout": "i i b b"
+    },
+    "UpdateTrigger": {
+      "layout": "i i[i] s i[i] i[i] i[i]"
+    },
+    "UseFurniture": {
+      "layout": "i i"
+    },
+    "UseWallItem": {
+      "layout": "i i"
+    },
+    "VerifyCode": {
+      "layout": "s"
+    },
+    "VersionCheck": {
+      "layout": "i s s"
+    },
+    "VisitUser": {
+      "layout": "s"
+    },
+    "VoteForRoom": {
+      "layout": "s"
+    },
+    "Whisper": {
+      "layout": "s i"
+    },
+    "WithdrawCreditVault": {
+      "layout": ""
+    }
+  }
+}

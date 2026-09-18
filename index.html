@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Habbo Packets — Structures</title>
+<link rel="stylesheet" href="./app.css">
+</head>
+<body>
+<header>
+  <div class="left">
+    <div class="brand">
+      <h1>Habbo Packets</h1>
+      <span class="subtitle">Packet structures · <span id="cnt-packets" class="count"></span></span>
+    </div>
+    <div class="controls" id="packet-controls">
+      <input id="search" type="search" placeholder="Search a packet… (e.g. Chat, FurniList)">
+      <select id="dir-filter">
+        <option value="all">All directions</option>
+        <option value="in">In → Server → Client</option>
+        <option value="out">Out → Client → Server</option>
+      </select>
+      <label class="chk"><input type="checkbox" id="custom-only"> Custom only</label>
+    </div>
+  </div>
+</header>
+
+<main>
+  <aside id="list-panel">
+    <div id="result-meta"></div>
+    <ul id="list"></ul>
+    <div id="empty" hidden>No result.</div>
+  </aside>
+
+  <section id="detail-panel">
+    <div id="detail"></div>
+  </section>
+</main>
+
+<script src="./app.js"></script>
+</body>
+</html>

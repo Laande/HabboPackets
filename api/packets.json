@@ -2780,6 +2780,10 @@
     },
     "WithdrawCreditVault": {
       "layout": ""
+    },
+    "SAVE_PSEUDO_SETTINGS": {
+      "custom": true,
+      "layout": "s s s b"
     }
   }
 }

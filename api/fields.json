@@ -17143,6 +17143,38 @@
         }
       ]
     },
-    "WithdrawCreditVault": {}
+    "WithdrawCreditVault": {},
+    "SAVE_PSEUDO_SETTINGS": {
+      "fields": [
+        {
+          "name": "Pseudo color",
+          "kind": "primitive",
+          "token": "s",
+          "type": "String",
+          "layout": "s"
+        },
+        {
+          "name": "Message color",
+          "kind": "primitive",
+          "token": "s",
+          "type": "String",
+          "layout": "s"
+        },
+        {
+          "name": "Prefix color",
+          "kind": "primitive",
+          "token": "s",
+          "type": "String",
+          "layout": "s"
+        },
+        {
+          "name": "RGB mode",
+          "kind": "primitive",
+          "token": "b",
+          "type": "bool",
+          "layout": "b"
+        }
+      ]
+    }
   }
 }
